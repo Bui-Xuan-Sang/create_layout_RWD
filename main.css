@@ -1,3 +1,9 @@
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
 body {
     font-family: Arial;
 }
@@ -8,7 +14,7 @@ header .top p {
 }
 
 .top #top-1 {
-    padding: 240px;
+    padding: 200px;
 }
 
 header {
@@ -34,7 +40,8 @@ header:nth-child(even){
 
 
 .sidebar-left a {
-    padding: 100px;
+    padding: 20px 0;
+    display: block;
 }
 
 section {
@@ -56,29 +63,25 @@ section h1, p, h3{
     text-align: center;
 }
 
-.sidebar-right #A {
+.sidebar-right #A , #B {
     background-color: #dfe6e9;
     width: 70%;
     height: 50px;
-    text-align: center;
     padding: 10px;
     margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sidebar-right #B{
-    background-color: #dfe6e9;
-    width: 70%;
-    height: 50px;
-    text-align: center;
-    padding: 10px;
-    margin-left: 20px;
-}
 
 footer {
     background-color: #353b48;
     padding: 20px;
-    text-align: center;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
